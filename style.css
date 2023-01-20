@@ -1,0 +1,65 @@
+body {
+    background-color: #ffe5b4;
+    color: #b06d00;
+}
+/* styling the list of items in the
+ nav bar*/
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+    z-index: 10;
+}
+/* styling the space of each item*/
+nav li {
+list-style: none;
+background-color: #b06d00;
+color: #ffe5b4;
+ margin:0;
+flex:1;
+    min-width: 200px;
+text-align: center;
+    display: flex;
+    position: relative;
+}
+/* styling the link, both unvisited and visited */
+nav a, nav a:visited {
+    text-decoration: none;
+    width:100%;
+    padding:8px 0px;
+    color: #ffe5b4;
+}
+nav a:hover, nav a.active {
+    color: #4d3101;
+    background-color: rgb(119, 78, 0);
+}
+.dropdown-content {
+    position: absolute;
+    top: 37px;
+    width:100%;
+    display: none;
+    z-index: 20;
+}
+nav li:hover .dropdown-content {
+    display: block;
+    flex-wrap: wrap;
+    margin:0;
+    padding: 0;
+    z-index: 10;
+}
+.dropdown-content a {
+    font-weight: bold;
+}
+.dropdown-content ul {
+    flex-direction: column;
+}
+.chess{
+
+}
+.sorry[
+
+]
+.checker[
+
+]
